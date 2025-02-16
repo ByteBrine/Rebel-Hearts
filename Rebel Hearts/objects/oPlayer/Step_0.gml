@@ -144,6 +144,7 @@ getControls();
 	//Get xspd
 	runType = runKey;
 	xspd = moveDir * moveSpd[runType];
+	
 	//Stop xspd if crouching
 	if crouching { xspd = 0; };
 	
