@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f48bc7d8-f7cc-4f99-b44d-34bfc8327561","name":"f48bc7d8-f7cc-4f99-b44d-34bfc8327561","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"22fc1f98-98ef-448c-8df0-a247daccda90","name":"22fc1f98-98ef-448c-8df0-a247daccda90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d27e3d66-0790-41cc-b60d-61f2711c8c89","blendMode":0,"displayName":"default","isLocked":false,"name":"d27e3d66-0790-41cc-b60d-61f2711c8c89","opacity":68.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f48946fa-d29d-4aa3-b48d-43257f3f77a7","blendMode":0,"displayName":"default","isLocked":false,"name":"f48946fa-d29d-4aa3-b48d-43257f3f77a7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sSemiSolidWall",
   "nineSlice":{
@@ -40,7 +40,7 @@
       0,
       1,
     ],
-    "top":8,
+    "top":32,
   },
   "origin":0,
   "parent":{
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f48bc7d8-f7cc-4f99-b44d-34bfc8327561","path":"sprites/sSemiSolidWall/sSemiSolidWall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8f34dbb4-255a-4c73-908b-dd835735b3f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"22fc1f98-98ef-448c-8df0-a247daccda90","path":"sprites/sSemiSolidWall/sSemiSolidWall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9cc3a7d7-c335-4703-867f-799ea464215b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
