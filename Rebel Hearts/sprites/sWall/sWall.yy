@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"sWall",
-  "bboxMode":2,
-  "bbox_bottom":15,
+  "bboxMode":0,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":15,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c492a593-6a01-4f3d-b178-23a0be100064","blendMode":0,"displayName":"default","isLocked":false,"name":"c492a593-6a01-4f3d-b178-23a0be100064","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -51,7 +51,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sWall",
     "autoRecord":true,
     "backdropHeight":768,
@@ -82,6 +82,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":64.0,
+    "seqWidth":64.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
@@ -105,5 +107,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":23,
+  "width":64,
 }

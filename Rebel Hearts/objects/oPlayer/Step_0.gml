@@ -513,14 +513,22 @@ getControls();
 
 
 //Sprite Control
+	//Set image speed
+	image_speed = 1;
+
+	//Hold frame (up)
+	if !onGround && (image_index >= image_number - 1) { image_speed = 0 };
+
 	//Walking
 	if abs(xspd) > 0 { sprite_index = walkSpr; };
 	//Running
 	if abs(xspd) >= moveSpd[1] { sprite_index = runSpr; };
 	//Not moving
 	if xspd == 0 { sprite_index = idleSpr; };
-	//In the air
-	if !onGround { sprite_index = jumpSpr; };
+	//In the air (Up)
+	if !onGround && yspd < 0 { sprite_index = jumpSpr; };
+	//In the air (Down)
+	if !onGround && yspd > 0 { sprite_index = jumpfallSpr; };
 	//Crouching
 	if crouching { sprite_index = crouchSpr; };
 		//set the collision mask
