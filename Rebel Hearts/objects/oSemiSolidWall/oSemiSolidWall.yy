@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSemiSolidWall",
-    "path":"sprites/sSemiSolidWall/sSemiSolidWall.yy",
+    "name":"sTest_Semi",
+    "path":"sprites/sTest_Semi/sTest_Semi.yy",
   },
   "spriteMaskId":null,
   "visible":true,

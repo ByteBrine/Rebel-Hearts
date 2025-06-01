@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Red Forest",
-    "path":"folders/Sprites/Backgrounds/Red Forest.yy",
+    "name":"Temp. City",
+    "path":"folders/Sprites/Backgrounds/Temp. City.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

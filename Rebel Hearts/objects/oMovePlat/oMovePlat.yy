@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMovePlat",
-    "path":"sprites/sMovePlat/sMovePlat.yy",
+    "name":"sTest_Move",
+    "path":"sprites/sTest_Move/sTest_Move.yy",
   },
   "spriteMaskId":null,
   "visible":true,
